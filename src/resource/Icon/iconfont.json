@@ -1,0 +1,51 @@
+{
+  "id": "1450199",
+  "name": "测试",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "375675",
+      "name": "Resume screening",
+      "font_class": "jianlishaixuan",
+      "unicode": "e61b",
+      "unicode_decimal": 58907
+    },
+    {
+      "icon_id": "747222",
+      "name": "mail",
+      "font_class": "mail",
+      "unicode": "e61d",
+      "unicode_decimal": 58909
+    },
+    {
+      "icon_id": "1433766",
+      "name": "id-card",
+      "font_class": "id-card",
+      "unicode": "e646",
+      "unicode_decimal": 58950
+    },
+    {
+      "icon_id": "7766764",
+      "name": "icon_left",
+      "font_class": "icon_left",
+      "unicode": "eb99",
+      "unicode_decimal": 60313
+    },
+    {
+      "icon_id": "7766783",
+      "name": "icon_refresh",
+      "font_class": "icon_refresh",
+      "unicode": "eb9c",
+      "unicode_decimal": 60316
+    },
+    {
+      "icon_id": "8554029",
+      "name": "projector-fill",
+      "font_class": "projector-fill",
+      "unicode": "e658",
+      "unicode_decimal": 58968
+    }
+  ]
+}

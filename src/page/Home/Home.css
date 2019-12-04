@@ -1,0 +1,115 @@
+/* 动画 */
+/*光标动画*/
+@keyframes caret {
+    50% {border-color: transparent;}
+}
+
+/*文本动画：从宽度为0开始*/
+@keyframes text {
+    from {width: 0;}
+}
+/* 字体 */
+
+/* 详细样式*/
+.rockBottom {
+    width: 100vw;
+    height: 100vh;
+    background: #4568DC;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #B06AB3, #4568DC);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.homeDiv{
+    background-color: #2c3051;
+    width: 95%;
+    height: 90%;
+    display: flex;
+}
+.leftSider{
+    width: 5%;
+    height: 100%;
+    background-color: #2c3051;
+}
+.logoArea{
+    height: 8%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.logo{
+    font-size: 40px;
+    color: #ffbf8d;
+}
+.textArea{
+    height: 92%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size: 15px;
+    background-color: #363b5f;
+}
+.textContent{
+    transform: rotate(-90deg);
+    letter-spacing: 10px;
+    /* font-weight:bold; */
+    font-family: "Open Sans", "Segoe UI", sans-serif;
+}
+.textContent h6{
+    color: #fff;
+}
+.textArea h6 span{
+    color: #ffbf8d;
+}
+/* 中间内容 */
+.innerContent{
+    width: 65%;
+    display: flex;
+    padding: 0px 40px 0 40px;
+    flex-wrap: wrap;
+}
+/*中间内容 头部区域开始 */
+.header{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.header h3{
+    /* font-family: webfontRegular; */
+    color: #fff;
+    font-size: 2.827em; 
+    letter-spacing: 4px;
+}
+.header h5{
+    color: #fff;
+    font-style: italic
+}
+.scrollText {
+    width: 11ch;
+    margin: 0 auto;
+    overflow: hidden;
+    word-break: keep-all;
+    color: #06fff7;
+    border-right: 3px solid #000000;
+    /* font: bold 400% monospace; */
+    animation: caret 0.5s step-end infinite ,text 5s infinite steps(11);
+}
+/*中间内容 头部区域结束 */
+/* 中间内容 内容区域开始 */
+.content {
+    width: 100%;
+    height: 70%;
+}
+.cardStyle {
+    width: 50%;
+    height: 50%;
+    padding: 20px 20px 0 0;
+}
+/* 中间内容 内容区域结束 */
