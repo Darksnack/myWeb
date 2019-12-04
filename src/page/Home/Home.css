@@ -30,6 +30,7 @@
     height: 90%;
     display: flex;
 }
+/* 侧栏 开始 */
 .leftSider{
     width: 5%;
     height: 100%;
@@ -61,10 +62,14 @@
 }
 .textContent h6{
     color: #fff;
+    font-weight: 700;
+    letter-spacing: 0.7em;
+    font-size: 20px;
 }
 .textArea h6 span{
     color: #ffbf8d;
 }
+/* 侧栏 结束 */
 /* 中间内容 */
 .innerContent{
     width: 65%;
@@ -80,26 +85,23 @@
     text-align: center;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
+    font-size: 0px;
 }
-.header h3{
-    /* font-family: webfontRegular; */
+.tittleOne{
+    width: 100%;
     color: #fff;
-    font-size: 2.827em; 
-    letter-spacing: 4px;
+    font-size: 50px; 
+    display:inline-block;
+    display: block;
 }
-.header h5{
-    color: #fff;
-    font-style: italic
-}
-.scrollText {
-    width: 11ch;
+.tittleTwo {
+    width: 100%;
     margin: 0 auto;
-    overflow: hidden;
-    word-break: keep-all;
+    font-size: 30px;
+    display:inline-block;
+    font-style: italic;
     color: #06fff7;
-    border-right: 3px solid #000000;
-    /* font: bold 400% monospace; */
-    animation: caret 0.5s step-end infinite ,text 5s infinite steps(11);
 }
 /*中间内容 头部区域结束 */
 /* 中间内容 内容区域开始 */
@@ -107,9 +109,16 @@
     width: 100%;
     height: 70%;
 }
+.container{
+    width: 100%;
+    height: 100%;
+}
 .cardStyle {
     width: 50%;
     height: 50%;
     padding: 20px 20px 0 0;
+    float: left;
+    text-align: center;
+    line-height: 50%;
 }
 /* 中间内容 内容区域结束 */
